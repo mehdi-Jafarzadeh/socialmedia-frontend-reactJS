@@ -1,0 +1,13 @@
+nav{
+        background: #202020;
+        font-size: min(1.1em, 2.5vw);
+        display: flex;
+        justify-content: space-around;
+        padding: 1vh  10vw;
+}
+nav a,
+nav a:visited
+{
+        color: white;
+        text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.comment{
+        text-align: left;
+}
+.comment-container{
+        background: #2c2c2c48;
+        padding: 10px;
+        margin: 0 5%;
+        border-radius: 10px;
+}
+.comment pre{
+        display: inline;
+}
+.comment:last-child hr{
+        display: none;
+}
+.comment-container input{
+        width: calc(97% - 120px);
+        background: #0f0f0f;
+        border : 1px solid rgb(109, 109, 109) ;
+        color: white;
+}
+.comment-container button{
+        background: #0f0f0f;
+        border : 1px solid rgb(109, 109, 109) ;
+        width: 120px;
+        color: white;
+}

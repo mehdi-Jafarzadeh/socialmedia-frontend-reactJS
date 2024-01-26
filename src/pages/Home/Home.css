@@ -1,0 +1,38 @@
+.tech{
+        background: url('../../../public/Assets/tech.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.tech-inner{
+        background: #001650;
+        width: 600px;
+        height: 300px;
+        border-radius: 10px;
+        text-align: center;
+}
+.tech-inner hr {
+        width: 70%;
+        margin: 0 15%;
+}
+.tech-inner h1 {
+        font-size: 3em;
+}
+.tech-inner p {
+        font-size: 1.5em;
+        padding: 2em;
+}
+.sec2{
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+}
+.sec2 > div{
+        width: 500px;
+        text-align: center;
+        border: 1px solid white;
+
+}
